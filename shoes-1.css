@@ -1,0 +1,41 @@
+.design {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "hd hd"
+        ".  sb"
+        ".  sb"
+
+}
+
+.header {
+    grid-area: hd;
+}
+
+.sidebar {
+    grid-area: sb;
+}
+
+job-title {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.bio {
+    font-weight: normal;
+}
+
+.profile-picture {
+    height: 200px;
+    width: 200px;
+    object-position: right;
+    border: 3px solid black;
+    box-sizing: border box;
+    display: block;
+    padding: 10px;
+}
+
+.quote {}

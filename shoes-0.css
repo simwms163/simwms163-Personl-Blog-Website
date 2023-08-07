@@ -1,0 +1,82 @@
+@import url("./shoes-1.css");
+
+.shoesnav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+.connect {
+    font-size: 25px;
+    color: #00008B;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.connect li {
+    background-color: #E75480;
+    padding: 10px;
+    display: inline-block;
+    margin: 6px 3px;
+    cursor: pointer;
+}
+
+.connect li:hover {
+    background-color: #666699;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    color: #E75480;
+}
+
+.gold-shoes {
+    height: 200px;
+    width: 200px;
+    border: 3px solid purple;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.shoe-card,
+.boot-card,
+.sneakers-card {
+    height: 100%;
+    width: 100%;
+}
+
+.silver-boots {
+    height: 200px;
+    width: 200px;
+    border: 3px solid dark purple;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.sneakers {
+    height: 200px;
+    width: 300px;
+    border: 5px solid dark blue;
+    box-sizing: border- box;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+.shoes-cards {
+    border: 2px purple;
+    padding: 20px;
+}
