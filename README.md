@@ -2,7 +2,7 @@
 
 ## Summary
 
-Learned the how to create a blog. The personal blog allows me to use the HTML and CSS. Went up a level with CSS with learning Flexbox and Grid. 
+Learned how to create a blog. The personal blog allows me to use the HTML and CSS. Went up a level with CSS with learning Flexbox and Grid. 
 
 ## Resources
 
